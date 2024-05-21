@@ -1,0 +1,115 @@
+/* Resetting default styles and setting up basic styles for the body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    overflow: hidden;
+    background-image: url(../assets/img/windmell.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Container styles for form */
+.container {
+    background: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Title styling */
+.form-title {
+    margin-bottom: 1.5em;
+    font-size: 2em;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input group container */
+.input-group {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+/* Icon inside the input field */
+.input-group i {
+    position: absolute;
+    top: 30%;
+    left: 35px;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+}
+
+/* Input field styling */
+.input-group input {
+    width: calc(100% - 40px);
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Input field focus state */
+.input-group input:focus {
+    border-color: #5cb85c;
+}
+
+/* Label styling */
+.input-group label {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1em;
+}
+
+/* Button hover state */
+.btn:hover {
+    background: #4cae4c;
+}
+
+/* Paragraph styling */
+p {
+    margin-top: 1em;
+    color: #666;
+}
+
+/* Link styling */
+p a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+/* Link hover state */
+p a:hover {
+    text-decoration: underline;
+}

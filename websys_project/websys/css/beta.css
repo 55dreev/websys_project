@@ -1,0 +1,39 @@
+/* Styles for the body */
+body {
+    background-color: #0A0F22;
+    color: white; /* Text color */
+    font-family:  Arial, serif;
+
+}
+  
+/* Styles for the container */
+.container {
+    background-color: #1D2233; /* Color of the smooth box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    margin: 20px auto; /* Center the container horizontally */
+    width: 80%; /* Set the width of the container */
+    max-width: 1200px; /* Maximum width of the container */
+    position: relative; /* Make position relative for absolute positioning of navbar */
+}
+
+/* Styles for the navbar */
+.navbar {
+    position: static;
+    top: 39%; /* Align navbar to the vertical center */
+    left: 55%;
+    transform: translate(-50%, -50%); /* Center the navbar horizontally and vertically */
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a {
+    color: #FFFFFF; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add space between links */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
